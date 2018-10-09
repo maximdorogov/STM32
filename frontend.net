@@ -1,0 +1,9 @@
+* C:\Users\Maxim\Desktop\ltsPICE_FRONT_END\frontend.asc
+V1 N001 0 5
+V2 N003 0 SINE(2.5 2.4 1K)
+R1 N002 0 10K
+XU1 N003 N002 N001 0 N002 ONSEMI_MC33201
+.INCLUDE MC33201.lib
+.tran 0 101m 1m 0.01m
+.backanno
+.end
